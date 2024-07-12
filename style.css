@@ -157,3 +157,18 @@ img {
     padding: 0;
     overflow-x: visible;
 }
+
+@media screen and (max-width: 40em) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #navhome {
+      font-size: 1.2em;
+    }
+    
+    .navitem a{
+      font-size: 1em;
+    }
+  }
